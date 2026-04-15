@@ -1,0 +1,547 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f3f5f7;
+    color: #1f2a37;
+}
+
+/* ===== Navbar ===== */
+.custom-navbar {
+    background-color: #f3f5f7; /* same light gray bg */
+    padding: 18px 0;
+}
+.portfolio-hero-section-bg{
+    background-color: #f3f5f7; /* same light gray bg */
+}
+.services-hero-section-bg{
+    background-color: #f3f5f7; /* same light gray bg */
+}
+.services-six-card-bg{
+    background-color: #e6ecf1;
+    padding: 50px 0;
+}
+.card-two-bg{
+    background-color: #f3f5f7;
+}
+/* Logo */
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+    color: #6b7280;
+    font-size: 16px;
+    margin-left: 25px;
+    position: relative;
+    transition: 0.3s;
+}
+
+/* Active link */
+.navbar-nav .nav-link.active {
+    color: #2563eb;
+    font-weight: 500;
+}
+
+/* Underline effect */
+.navbar-nav .nav-link.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: #2563eb;
+    border-radius: 2px;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+    color: #111827;
+}
+
+
+
+
+
+
+/* ===== Hero ===== */
+.hero-section {
+    padding: 80px 0;
+}
+
+.badge-custom {
+    background: #e6edff;
+    color: #2f6fed;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.hero-text {
+    color: #6b7280;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.hero-buttons {
+    margin-top: 25px;
+}
+
+.btn-primary-custom {
+    background: #2f6fed;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.btn-secondary-custom {
+    background: #e5e7eb;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.hero-img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+/* ===== Mission ===== */
+.mission-section {
+    background: #eef1f4;
+    padding: 80px 0;
+}
+
+.section-label {
+    font-size: 12px;
+    color: #2f6fed;
+    letter-spacing: 1px;
+}
+
+.mission-title {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.mission-text {
+    color: #6b7280;
+    line-height: 1.7;
+}
+
+/* ===== Services ===== */
+.services-section {
+    padding: 80px 0;
+}
+
+.services-title {
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background: #f9fafb;
+    padding: 30px;
+    border-radius: 12px;
+}
+.service-card img {
+   margin-bottom: 20px;
+}
+
+/* ===== Testimonial ===== */
+.testimonial-section {
+    background: #eef2f5;
+    padding: 100px 0;
+}
+
+.testimonial-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.testimonial-card {
+    background: #f8fafc;
+    padding: 35px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #4b5563;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+/* Quote icon top-right */
+.quote-icon {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 60px;
+    color: #dbe3ef;
+    font-weight: 700;
+}
+
+/* Client image */
+.client-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+
+
+
+/* ===== Footer ===== */
+.footer {
+    background: #e5e7eb;
+    padding: 20px 0;
+}
+
+.footer a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #6b7280;
+}
+
+
+
+
+/* portfolio page CSS start from here  */
+
+
+/* Left blue border effect */
+.custom-card {
+    border-left: 4px solid #2563eb;
+    border-radius: 16px;
+    background: #f8fafc;
+}
+.port-icon-img{
+    margin-right: 10px;
+}
+
+
+.bg-personal{
+    background: #e8eff3;
+}
+
+
+/* ===== Timeline ===== */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+/* Vertical Line */
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #e5e7eb;
+}
+
+/* Each Item */
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+/* Dot */
+.timeline-dot {
+    position: absolute;
+    left: -1px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background: #2563eb;
+    border-radius: 50%;
+}
+
+/* Gray Dot */
+.timeline-dot.gray {
+    background: #cbd5e1;
+}
+
+/* Content spacing */
+.timeline-content {
+    margin-left: 20px;
+}
+
+
+
+
+
+.color-blue{
+    color: #0056d2;
+}
+
+.heading-div{
+    width: 794.67px;
+    height: 152px;
+    opacity: 100%;
+}
+.heading-div h1{
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -3.6px;
+    color: #2b3437;
+}
+.custom-size-font{
+    font-size: 12px;
+    line-height: 1.2px;
+}
+.custom-size-p{
+    font-size: 18px;
+    line-height: 29.3px;
+}
+.custom-div-p{
+    width: 768px;
+    height: 87.75px;
+}
+.padding-top-about{
+    padding-top: 16px;
+}
+.gap-about{
+    gap: 24px;
+}
+.about-section{
+    padding: 100px 100px;
+}
+.box-about-quote{
+    width: 198px;
+    height: 108px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 24px 42px 24px 24px;
+    font-style: italic;
+    position: absolute;
+    bottom: 80px;
+    right: 320px;
+}
+.custom-padding-card1{
+    padding: 32px;
+}
+.custom-padding-top{
+    padding-top: 16px;
+}
+.custom-padding-bottom{
+    padding-bottom: 16px;
+}
+.custom-gray{
+    color: #615B77;
+}
+.custom-height-width{
+    width: 1216px;
+    height: 30px;
+}
+.tag {
+  display: flexbox;
+  padding: 6px 16px;
+  background: #e9e6f7;
+  color: #6f42c1;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 5px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 28px;
+  color: #2d2f31;
+}
+
+.section-subtitle {
+  color: #6c757d;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.clients-box h3 {
+  color: #c9d6f2;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.clients-box p {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #6c757d;
+  margin: 0;
+}
+.divider {
+  border-top: 1px solid #535252;
+}
+.brand h5 {
+  font-weight: 600px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #6c757d;
+  letter-spacing: -1.2px;
+}
+
+.brand span {
+  font-size: 8px;
+  letter-spacing: 0.6px;
+  color: #adb5bd;
+  padding-bottom: 35px;
+}
+.custom-bg-core{
+    background-color: #EAEFF1;
+}
+
+.schedule-section {
+  background-color: #1659c7;
+  width: 1216px;
+  height: 308px;
+  padding: 48px;
+  margin-left: 120px;
+  border: 1px solid #1659c7;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.schedule-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* Subtitle */
+.schedule-subtitle {
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 576px;
+  height: 72px;
+  opacity: 80%;
+  padding-bottom: 16px;
+  color: #F8F7FF;
+}
+
+/* Button */
+.schedule-btn {
+  background-color: #ffffff;
+  color: #1659c7;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 1px solid #ffffff;
+}
+.schedule-section a{
+    text-decoration: none;
+}
+.contract-title-section{
+    padding-left: 110px;
+    padding-right: 100px;
+}
+
+
+
+.contact-form label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6c757d;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.contact-form .form-control {
+  background: #eef1f4;
+  border: none;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.contact-form .form-control:focus {
+  box-shadow: none;
+  background: #e6ebf1;
+}
+
+.send-btn {
+  background-color: #1659c7;
+  color: #ffffff;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 1px solid #ffffff;
+}
+
+
+/* INFO BOXES */
+.info-boxes .info-item {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.info-item .icon {
+  font-size: 20px;
+  color: #1659c7;
+  margin-bottom: 10px;
+}
+
+.info-item h6 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.info-item p {
+  font-size: 13px;
+  color: #6c757d;
+}
+
+/* MAP */
+.map-box {
+  position: relative;
+  border-radius: 10px;
+}
+
+.map-box iframe {
+  width: 478px;
+  height: 512px;
+}
+
+/* MAP CARD */
+.map-card {
+    width: 430.66px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 16px 16px 16px 16px;
+    position: absolute;
+    bottom: 80px;
+    right: 175px;
+}
+
+/* QUOTE */
+.quote-box {
+  background-image: url(src/img/bg/bg_decor.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-right: 200px;
+  background-size: auto;   
+  color: #0056d2;
+  padding: 30px;
+  border-radius: 10px;
+  font-style: italic;
+  text-align: left;
+}
